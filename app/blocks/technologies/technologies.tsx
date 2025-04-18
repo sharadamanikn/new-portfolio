@@ -29,26 +29,23 @@ const technologies = [
 export default function Technology() {
   return (
     <section className="bg-gray-950 text-white py-12 px-4 ">
-     <div className="w-[90%] md:w-1/2 mx-auto">
-     <h1 className="text-4xl md:text-3xl  leading-snug  mb-10">
-        <span className="text-white-400 ">Tech Stack </span>
-      </h1> 
-     </div>
+      <div className="w-[90%] md:w-1/2 mx-auto">
+        <h1 className="text-4xl md:text-3xl mb-10 text-left">
+          <span className="text-white-400">Tech Stack </span>
+        </h1>
 
-      <div className="flex flex-wrap justify-center gap-10 max-w-6xl mx-auto">
-        {technologies.map((tech) => (
-          <div
-            key={tech.name}
-            className="flex flex-col items-center  justify-center w-[110px] h-[110px] border border-white-200 rounded-lg hover:shadow-[0_0_15px_rgba(59,130,246,0.7)]
- transition"
-          >
-            <div className="mb-2">{tech.icon}</div>
-            <span className="text-sm font-mono text-center">{tech.name}</span>
-          </div>
-        ))}    
+        <div className="flex flex-wrap justify-center md:justify-start gap-8">
+          {technologies.map((tech) => (
+            <div
+              key={tech.name}
+              className="flex flex-col items-center justify-center w-[170px] h-[120px] border border-white-200 rounded-lg hover:shadow-[0_0_15px_rgba(59,130,246,0.7)] transition"
+            >
+              <div className="mb-2">{tech.icon}</div>
+              <span className="text-sm font-mono text-center">{tech.name}</span>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );
 }
-
-
