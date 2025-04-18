@@ -7,17 +7,17 @@ export default function NavigationBar() {
 	const pathname = usePathname();
 
 	const navItems = [
-		{ href: "/blocks", icon: <Home size={32} />, label: "Home" },
-		{ href: "/resume", icon: <FileText size={32} />, label: "Resume" },
-		{ href: "/blog", icon: <PenLine size={32} />, label: "Blog" },
-		{ href: "/books", icon: <BookOpen size={32} />, label: "Books" },
-		{ href: "/gallery", icon: <ImageIcon size={32} />, label: "Gallery" },
-	];
+		{ href: "/blocks", icon: <Home size={24} />, label: "Home" },
+		{ href: "/resume", icon: <FileText size={24} />, label: "Resume" },
+		{ href: "/blog", icon: <PenLine size={24} />, label: "Blog" },
+		{ href: "/books", icon: <BookOpen size={24} />, label: "Books" },
+		{ href: "/gallery", icon: <ImageIcon size={24} />, label: "Gallery" },
+	  ];
 
 	return (
-<div className="w-full flex justify-center py-4 mt-6 sticky top-4 z-50">			
+<div className="w-full flex justify-center py-2 mt-4 sticky top-4 z-50">			
 	<div
-				className="flex items-center justify-between w-[90%] md:w-3/4 lg:w-1/2 px-6 py-6 
+				className="flex items-center justify-between w-[90%] md:w-3/4 lg:w-1/2 px-4 py-3
          text-white border-2 border-neutral-700 rounded-3xl shadow-lg bg-gray-950 
          hover:shadow-[0_0_10px_5px_rgba(211,211,211,0.4)] transition-all"
 			>
