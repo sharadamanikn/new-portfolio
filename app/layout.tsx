@@ -3,6 +3,23 @@ import "./globals.css";
 import React, { PropsWithChildren } from 'react'
 import NavigationBar from "@/components/NavigationBar/NavBar";
 import Footer from "@/components/Footer/footer";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Portfolio- Sharadamani K N",
+  description:
+    "Personal Portfolio Website.",
+  openGraph: {
+    title: "Portfolio",
+    description:
+      "My Personal Portfolio Website.",
+    images: {
+      url: "https://cobalt-plum.vercel.app/og-card.png",
+      width: 1200,
+      height: 628,
+    },
+  },
+};
 
  const RootLayout = (props:PropsWithChildren) => {
   return (
