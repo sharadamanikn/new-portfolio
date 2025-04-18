@@ -3,11 +3,9 @@
 import {
   BadgeCheck,
   Database,
-  Flame,
   GitBranch,
   Github,
   Layers,
-  Rocket,
   Send,
   Server,
   Terminal,
@@ -30,17 +28,19 @@ const technologies = [
 
 export default function Technology() {
   return (
-    <section className=" text-white py-12 px-4">
-     <h1 className="text-4xl md:text-5xl font-extrabold leading-snug text-center mb-10">
-        <span className="text-green-400">Tech</span>
-        <span className="text-sky-400">Stack</span>
+    <section className="bg-gray-950 text-white py-12 px-4 ">
+     <div className="w-[90%] md:w-1/2 mx-auto">
+     <h1 className="text-4xl md:text-3xl  leading-snug  mb-10">
+        <span className="text-white-400 ">Tech Stack </span>
       </h1> 
+     </div>
 
-      <div className="flex flex-wrap justify-center gap-8 max-w-6xl mx-auto">
+      <div className="flex flex-wrap justify-center gap-10 max-w-6xl mx-auto">
         {technologies.map((tech) => (
           <div
             key={tech.name}
-            className="flex flex-col items-center  justify-center w-[130px] h-[130px] bg-neutral-700 rounded-lg  hover:bg-blue-400 transition"
+            className="flex flex-col items-center  justify-center w-[110px] h-[110px] border border-white-200 rounded-lg hover:shadow-[0_0_15px_rgba(59,130,246,0.7)]
+ transition"
           >
             <div className="mb-2">{tech.icon}</div>
             <span className="text-sm font-mono text-center">{tech.name}</span>
@@ -50,3 +50,5 @@ export default function Technology() {
     </section>
   );
 }
+
+
