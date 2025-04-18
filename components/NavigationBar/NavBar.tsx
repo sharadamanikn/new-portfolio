@@ -11,7 +11,7 @@ export default function NavigationBar() {
 		{ href: "/resume", icon: <FileText size={32} />, label: "Resume" },
 		{ href: "/blog", icon: <PenLine size={32} />, label: "Blog" },
 		{ href: "/books", icon: <BookOpen size={32} />, label: "Books" },
-		{ href: "/gallery", icon: <Image size={32} />, alt:"Gallery Image", label: "Gallery" },
+		{ href: "/gallery", icon: <Image size={32} />, label: "Gallery" },
 	];
 
 	return (
