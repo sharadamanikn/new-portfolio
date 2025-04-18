@@ -2,7 +2,7 @@ import React from "react";
 
 const books = [
   {
-    title: "Don&apos;t Believe Everything You Think",
+    title: "Don't Believe Everything You Think",
     author: "Joseph Nguyen",
     description: "A guide to cognitive behavioral therapy.",
   },
@@ -25,9 +25,9 @@ const books = [
 
 const BooksPage = () => {
   return (
-    <div className="bg-gray-950 min-h-screen  flex justify-center pt-12 px-4">
+    <div className="bg-gray-950 min-h-screen  flex justify-center pt-8 px-4 ">
       <div className=" max-w-4xl flex flex-col items-center w-[90%] md:w-1/2 px-6 py-6">
-        <p className="text-gray-400 text-2xl mb-6 text-center">
+        <p className="text-gray-400 text-1xl mb-6 text-center">
           Here are some books that have had a profound impact on me. <br />
           Growth isn&apos;t just technical — it&apos;s ethical, emotional, and intellectual too.
           Must-reads for anyone in their 20&apos;s.📘
