@@ -73,7 +73,7 @@ const ResumePage = () => {
           <ul className="list-disc list-inside text-gray-100">
             <li> Data Structures and Algorithms | GeeksForGeeks</li>
             <li> Basics of Networking (CCNA) | Cisco </li>
-            <li>Basics of Pyhton | CodeWise </li>
+            <li>Basics of Python | CodeWise </li>
           </ul>
         </div>
 
