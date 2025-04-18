@@ -11,11 +11,12 @@ export default function NavigationBar() {
 		{ href: "/resume", icon: <FileText size={32} />, label: "Resume" },
 		{ href: "/blog", icon: <PenLine size={32} />, label: "Blog" },
 		{ href: "/books", icon: <BookOpen size={32} />, label: "Books" },
-		{ href: "/gallery", icon: <Image size={32} />, label: "Gallery" },
+		{ href: "/gallery", icon: <Image size={32} />, alt:"Gallery Image", label: "Gallery" },
 	];
 
 	return (
-<div className="w-full flex justify-center py-4 mt-6 sticky top-4 z-50">			<div
+<div className="w-full flex justify-center py-4 mt-6 sticky top-4 z-50">			
+	<div
 				className="flex items-center justify-between w-[90%] md:w-3/4 lg:w-1/2 px-6 py-6 
          text-white border-2 border-neutral-700 rounded-3xl shadow-lg bg-gray-950 
          hover:shadow-[0_0_10px_5px_rgba(211,211,211,0.4)] transition-all"
