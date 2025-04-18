@@ -27,7 +27,7 @@ const Projects = () => {
 		<div className="bg-gray-950  flex flex-col items-center pt-16 px-4
         pb-15">
 			<div className="w-full md:w-3/4 lg:w-1/2">
-				<h1 className="text-white text-2xl md:text-3xl font-bold mb-8 text-left">
+				<h1 className="text-white text-3xl md:text-2xl font-bold mb-8 text-left">
 					Projects
 				</h1>
 			</div>
