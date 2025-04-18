@@ -5,7 +5,7 @@ const ResumePage = () => {
     <div className="bg-gray-950 min-h-screen text-white px-4 py-10">
       <div className="max-w-3xl mx-auto">
 
-        <h1 className="text-4xl font-bold mb-4">My Resume</h1>
+        <h1 className="text-2xl font-bold mb-4">My Resume</h1>
         <p className="text-gray-400 mb-8">Some (updated) info about me</p>
         <hr className="border-white-700 mb-10 w-full max-w-3xl" />
 
