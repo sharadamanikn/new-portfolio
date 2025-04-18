@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     description:
       "My Personal Portfolio Website.",
     images: {
-      url: "/og-card.png",
+      url: "https://myportfolio-blond-omega.vercel.app/og-card.png",
       width: 1200,
       height: 628,
     },
