@@ -6,7 +6,7 @@ export const About = () => {
   return (
     <div className="bg-gray-950 w-[90%] md:w-1/2 mx-auto mt-13 text-white">
       <h1 className="text-4xl md:text-5xl font-extrabold leading-snug text-center">
-        <span className="text-green-400">Hi, I'm </span>
+        <span className="text-green-400">Hi, I&apos;m </span>
         <span className="text-sky-400">Sharadamani K N</span>
         <span className="ml-2"> 🚀</span>
       </h1>
