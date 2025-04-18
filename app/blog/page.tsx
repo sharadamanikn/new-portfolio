@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+import Image from "next/image";
 const Blog = () => {
 	return (
 		<div className="bg-gray-950 min-h-screen flex items-start justify-center pt-16">
@@ -13,7 +13,7 @@ const Blog = () => {
   <div className="flex-1 max-h-80">
     <Link href="https://sharadamanikn.blogspot.com/" target="_blank" passHref>
       <div className="relative w-full h-60 md:h-72 cursor-pointer transition-transform duration-300 ease-in-out hover:shadow-[0_0_15px_rgba(59,130,246,0.7) hover:scale-90">
-        <img 
+        <Image 
           src="/blog-image.png" 
           alt="Blog Image" 
           className="w-full h-full object-cover rounded-lg shadow-lg"
