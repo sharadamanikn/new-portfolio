@@ -7,19 +7,20 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Portfolio- Sharadamani K N",
-  description:
-    "Personal Portfolio Website.",
+  description: "Personal Portfolio Website.",
   openGraph: {
     title: "Portfolio",
-    description:
-      "My Personal Portfolio Website.",
-    images: {
-      url: "https://myportfolio-blond-omega.vercel.app/og-card.png",
-      width: 1200,
-      height: 628,
-    },
+    description: "My Personal Portfolio Website.",
+    images: [
+      {
+        url: "https://myportfolio-blond-omega.vercel.app/og-card.png",
+        width: 1200,
+        height: 628,
+      },
+    ],
   },
 };
+
 
  const RootLayout = (props:PropsWithChildren) => {
   return (
