@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Home, FileText, PenLine, BookOpen, Image } from "lucide-react";
+import { Home, FileText, PenLine, BookOpen, Image as ImageIcon } from "lucide-react";
 
 export default function NavigationBar() {
 	const pathname = usePathname();
@@ -11,7 +11,7 @@ export default function NavigationBar() {
 		{ href: "/resume", icon: <FileText size={32} />, label: "Resume" },
 		{ href: "/blog", icon: <PenLine size={32} />, label: "Blog" },
 		{ href: "/books", icon: <BookOpen size={32} />, label: "Books" },
-		{ href: "/gallery", icon: <Image size={32} />, label: "Gallery" },
+		{ href: "/gallery", icon: <ImageIcon size={32} />, label: "Gallery" },
 	];
 
 	return (
