@@ -16,16 +16,18 @@ const Blog = () => {
         <Image 
           src="/blog-image.png" 
           alt="Blog Image" 
+          width={800}
+          height={480}
           className="w-full h-full object-cover rounded-lg shadow-lg"
         />
       </div>
     </Link>
   </div>
 
-  <div className="flex-1 flex flex-col justify-center border p-4 rounded-lg cursor-pointer transition-transform  shadow-lg border-gray-300  duration-300 ease-in-out hover:shadow-[0_0_15px_rgba(59,130,246,0.7) hover:scale-90">
+  <div className="flex-1 flex flex-col justify-center border p-4 rounded-lg cursor-pointer transition-transform  shadow-lg border-gray-300  duration-300 ease-in-out hover:shadow-[0_0_15px_rgba(59,130,246,0.7)] hover:scale-90">
     <h2 className="text-2xl md:text-4xl font-bold mb-3 text-white">Personal Blog</h2>
     <p className="text-lg md:text-2xl font-light text-gray-300 mb-2">
-      A little corner where I pour out my thoughts, share life lessons. Don’t worry — it’s all non-technical stuff. ☕💭
+      A little corner where I pour out my thoughts, share life lessons. Don&apos;t worry — it&apos;s all non-technical stuff. ☕💭
     </p>
   </div>
 </div>
