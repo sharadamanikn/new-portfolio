@@ -21,7 +21,7 @@ export default function NavigationBar() {
          text-white border-2 border-neutral-700 rounded-3xl shadow-lg bg-gray-950 
          hover:shadow-[0_0_10px_5px_rgba(211,211,211,0.4)] transition-all"
 			>
-				<div className="text-3xl font-extrabold font-serif">{"{S}"}</div>
+				<div className="text-2xl font-extrabold font-serif">{"{S}"}</div>
 
 				<nav className="flex flex-row gap-6 md:gap-10 text-xl tracking-wider font-serif">
 					{navItems.map((item) => (
