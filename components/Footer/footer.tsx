@@ -10,7 +10,7 @@ const Footer = () => {
           © {new Date().getFullYear()} Sharadamani K N
         </div>
         <div className="flex-grow text-center text-1xl text-gray-100 ">
-          Made with [NextJS] Love🤍
+          Made with [NextJS] Love ❤️
         </div>
 
         <div className="flex gap-6 text-sm text-gray-100">
