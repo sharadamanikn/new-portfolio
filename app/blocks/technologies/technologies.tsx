@@ -30,7 +30,7 @@ export default function Technology() {
   return (
     <section className="bg-gray-950 text-white py-12 px-4 ">
       <div className="max-w-3xl mx-auto px-4 ">
-        <h1 className="text-3xl md:text-2xl mb-10 text-left">
+        <h1 className="text-3xl md:text-2xl mb-8 text-left">
           <span className="text-white-400">Tech Stack </span>
         </h1>
 
