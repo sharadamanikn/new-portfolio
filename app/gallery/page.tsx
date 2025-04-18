@@ -13,7 +13,7 @@ const images = [
 const GalleryPage = () => {
   return (
     <div className="bg-gray-950 flex flex-col items-center pt-8 px-4 md:px-0">
-      <p className="text-gray-400 text-2xl mb-6 text-center">
+      <p className="text-gray-400 text-1xl mb-6 text-center">
         A little visual space where I collect snapshots, moments, and things I love.❤️
       </p>
       <hr className="border-white-700 mb-10 w-full md:w-1/2" />
