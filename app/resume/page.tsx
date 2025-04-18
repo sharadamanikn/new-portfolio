@@ -49,7 +49,7 @@ const ResumePage = () => {
 
           <div className="border border-gray-700 rounded-lg p-6 mb-4">
           <h2 className="text-2xl font-semibold mb-4">Technical Skills</h2>
-          <ul className="list-disc list-inside text-gray-300">
+          <ul className="list-disc list-inside text-gray-100">
             <li>Languages: C++, C, Python, HTML, CSS, JavaScript,Typescript</li>
             <li>Databases: PostgreSQL, Oracle</li>
             <li>Tools: VS Code, Git, GitHub, Microsoft Excel, Postman</li>
@@ -59,7 +59,7 @@ const ResumePage = () => {
 
         <div className="border border-gray-700 rounded-lg p-6 mb-4">
           <h2 className="text-2xl font-semibold mb-4">Projects</h2>
-          <ul className="list-disc list-inside text-gray-300">
+          <ul className="list-disc list-inside text-gray-100">
             <li>Hacker News Backend - A scalable TypeScript based backend for a social news platform which includes user authentication, posts, comments, and likes. Deployed it by implementing the CI/CD pipelines in Azure. </li>
             <li>Personal Portfolio Website - A personal portfolio website showcasing my projects, skills, and experiences built with Next.js and VittailwindCSS.</li>
             <li>Iris Pattern Recognition system - A MATLAB-based project that uses image processing techniques to identify iris patterns for biometric authentication.</li>
@@ -70,7 +70,7 @@ const ResumePage = () => {
         {/* Certificates Section */}
         <div className="border border-gray-700 rounded-lg p-6 mb-4">
           <h2 className="text-2xl font-semibold mb-4">Certificates</h2>
-          <ul className="list-disc list-inside text-gray-300">
+          <ul className="list-disc list-inside text-gray-100">
             <li> Data Structures and Algorithms | GeeksForGeeks</li>
             <li> Basics of Networking (CCNA) | Cisco </li>
             <li>Basics of Pyhton | CodeWise </li>
@@ -79,7 +79,7 @@ const ResumePage = () => {
 
         <div className="border border-gray-700 rounded-lg p-6 mb-4">
           <h2 className="text-2xl font-semibold mb-4">Hobbies</h2>
-          <ul className="list-disc list-inside text-gray-300">
+          <ul className="list-disc list-inside text-gray-100">
             <li>Reading Books</li>
             <li>Painting</li>
             
