@@ -1,17 +1,42 @@
+import { Github, Instagram,  Linkedin } from 'lucide-react';
 import React from 'react';
+import Link from 'next/link';
 
 export const About = () => {
   return (
-    <div className="bg-gray-950 w-[90%] md:w-1/2 mx-auto mt-16 text-white">
+    <div className="bg-gray-950 w-[90%] md:w-1/2 mx-auto mt-13 text-white">
       <h1 className="text-4xl md:text-5xl font-extrabold leading-snug text-center">
         <span className="text-green-400">Hi, I'm </span>
         <span className="text-sky-400">Sharadamani K N</span>
         <span className="ml-2"> 🚀</span>
       </h1>
 
-      <p className="text-1xl mt-2 text-neutral-300  text-center mb-10">
+      <p className="text-1xl mt-2 text-neutral-300  text-center mb-3">
         Final Year Student   |   Information Science and Engineering
       </p>
+      <div className="flex gap-6 text-sm text-gray-100 justify-center mb-8">
+          <Link
+            href="https://github.com/sharadamanikn"
+            target="_blank"
+            className="hover:shadow-[0_0_15px_rgba(59,130,246,0.7)] transition"
+          >
+            <Github size={25} />
+          </Link>
+          <Link
+            href="https://www.linkedin.com/in/sharadamani-k-n-44663124b/"
+            target="_blank"
+            className="hover:shadow-[0_0_15px_rgba(59,130,246,0.7)] transition"
+          >
+            <Linkedin size={25} />
+          </Link>
+          <Link
+            href="https://www.instagram.com/sharda_mani_?igsh=MXRvbTVmZzR4dGdxMQ=="
+            target="_blank"
+            className="hover:shadow-[0_0_15px_rgba(59,130,246,0.7)] transition"
+          >
+            <Instagram size={25} />
+          </Link>
+        </div>
       <h1 className="text-4xl md:text-3xl leading-snug  mb-4">
         <span className="text-white-400 ">About Me </span>
       </h1> 
