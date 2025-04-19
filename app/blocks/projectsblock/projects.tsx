@@ -24,7 +24,7 @@ const projects = [
 
 const Projects = () => {
 	return (
-		<div className="bg-gray-950  flex flex-col items-center pt-16 px-4
+		<div className="bg-gray-950  flex flex-col items-center pt-13 px-4
         pb-15">
 			<div className="w-full md:w-3/4 lg:w-1/2">
 				<h1 className="text-white text-3xl md:text-2xl  mb-8 text-left">
