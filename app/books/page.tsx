@@ -39,7 +39,7 @@ const BooksPage = () => {
           {books.map((book, index) => (
             <div
               key={index}
-              className="p-6 rounded-2xl border border-white   backdrop-blur shadow-lg  hover:shadow-[0_0_15px_rgba(59,130,246,0.7)]  cursor-pointer hover:scale-105 transition-transform duration-300 h-50"
+              className="p-6 rounded-2xl border border-white   backdrop-blur shadow-lg  hover:shadow-[0_0_15px_rgba(59,130,246,0.7)]  cursor-pointer hover:scale-105 transition duration-300 h-50"
             >
               <h3 className="text-white text-xl font-semibold mb-1">{book.title}</h3>
               <p className="text-gray-300 text-sm italic mb-2">by {book.author}</p>
