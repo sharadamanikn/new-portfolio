@@ -35,11 +35,11 @@ const BooksPage = () => {
 
         <hr className="border-white-700 mb-10 w-full" />
 
-        <div className="grid grid-cols-1  md:grid-cols-2 gap-6 w-full hover:shadow-[0_0_15px_rgba(59,130,246,0.7)] transition cursor-pointer">
+        <div className="grid grid-cols-1  md:grid-cols-2 gap-6 w-full ">
           {books.map((book, index) => (
             <div
               key={index}
-              className="p-6 rounded-2xl border border-white   backdrop-blur shadow-lg hover:scale-105 transition-transform duration-300 h-50"
+              className="p-6 rounded-2xl border border-white   backdrop-blur shadow-lg hover:scale-105  hover:shadow-[0_0_15px_rgba(59,130,246,0.7)] transition cursor-pointer duration-300 h-50"
             >
               <h3 className="text-white text-xl font-semibold mb-1">{book.title}</h3>
               <p className="text-gray-300 text-sm italic mb-2">by {book.author}</p>
