@@ -13,7 +13,7 @@ const Footer = () => {
           Made with (Next.js) ❤️
         </div>
 
-        <div className="flex gap-6 text-sm text-gray-100">
+        <div className="flex gap-5 text-sm text-gray-100">
           <Link
             href="https://github.com/sharadamanikn"
             target="_blank"
