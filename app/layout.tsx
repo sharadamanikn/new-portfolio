@@ -12,16 +12,17 @@ export const metadata: Metadata = {
     "Welcome to my portfolio! Explore my projects, skills, and experiences. Let's connect and create something amazing together.",
   openGraph: {
     title: "Portfolio",
-    description:"Welcome to my portfolio! Explore my projects, skills, and experiences. ",
+    description: "Welcome to my portfolio! Explore my projects, skills, and experiences.",
     images: [
       {
         url: "https://new-portfolio-two-virid.vercel.app/og-card.png",
         width: 1200,
         height: 628,
       }
-    ],
+    ]
   },
 };
+
 
  const RootLayout = (props:PropsWithChildren) => {
   return (
