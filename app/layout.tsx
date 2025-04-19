@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description:
     "Welcome to my portfolio! Explore my projects, skills, and experiences. Let's connect and create something amazing together.",
   openGraph: {
-    title: "Portfolio",
+    title: "Sharadamani K N",
     description: "Welcome to my portfolio! Explore my projects, skills, and experiences.",
     images: [
       {
