@@ -13,11 +13,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Portfolio",
     description:"Welcome to my portfolio! Explore my projects, skills, and experiences. ",
-    images: {
-      url: "https://new-portfolio-two-virid.vercel.app/og-card.png",
-      width: 1200,
-      height: 628,
-    },
+    images: [
+      {
+        url: "https://new-portfolio-two-virid.vercel.app/og-card.png",
+        width: 1200,
+        height: 628,
+      }
+    ],
   },
 };
 
