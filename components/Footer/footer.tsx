@@ -19,21 +19,21 @@ const Footer = () => {
             target="_blank"
             className="hover:shadow-[0_0_15px_rgba(59,130,246,0.7)] transition"
           >
-            <Github size={25} />
+            <Github size={22} />
           </Link>
           <Link
             href="https://www.linkedin.com/in/sharadamani-k-n-44663124b/"
             target="_blank"
             className="hover:shadow-[0_0_15px_rgba(59,130,246,0.7)] transition"
           >
-            <Linkedin size={25} />
+            <Linkedin size={22} />
           </Link>
           <Link
             href="https://www.instagram.com/sharda_mani_?igsh=MXRvbTVmZzR4dGdxMQ=="
             target="_blank"
             className="hover:shadow-[0_0_15px_rgba(59,130,246,0.7)] transition"
           >
-            <Instagram size={25} />
+            <Instagram size={22} />
           </Link>
         </div>
       </div>
