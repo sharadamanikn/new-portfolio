@@ -13,27 +13,27 @@ const Footer = () => {
           Made with ❤️ (Next.js) 
         </div>
 
-        <div className="flex gap-5 text-sm text-gray-100">
+        <div className="flex gap-4 text-sm text-gray-100">
           <Link
             href="https://github.com/sharadamanikn"
             target="_blank"
             className="hover:shadow-[0_0_15px_rgba(59,130,246,0.7)] transition"
           >
-            <Github size={22} />
+            <Github size={20} />
           </Link>
           <Link
             href="https://www.linkedin.com/in/sharadamani-k-n-44663124b/"
             target="_blank"
             className="hover:shadow-[0_0_15px_rgba(59,130,246,0.7)] transition"
           >
-            <Linkedin size={22} />
+            <Linkedin size={20} />
           </Link>
           <Link
             href="https://www.instagram.com/sharda_mani_?igsh=MXRvbTVmZzR4dGdxMQ=="
             target="_blank"
             className="hover:shadow-[0_0_15px_rgba(59,130,246,0.7)] transition"
           >
-            <Instagram size={22} />
+            <Instagram size={20} />
           </Link>
         </div>
       </div>
