@@ -6,8 +6,8 @@ const projects = [
 	{
 		title: "My Portfolio",
 		description:
-			"A personal portfolio website showcasing my projects, skills, and experiences built with React.js and Vite.",
-		link: "https://github.com/sharadamanikn/portfolio.git",
+			"A personal portfolio website showcasing my projects, skills, and experiences built with Next.js and Tailwind.",
+		link: "https://github.com/sharadamanikn/portfolio-next.js.git",
 	},
 	{
 		title: "Iris Pattern Recognition System",
